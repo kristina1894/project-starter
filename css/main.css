@@ -19,6 +19,9 @@ h6 {
 	color: rgb(111, 79, 101);
 
 }
+ul{
+	list-style: none;
+}
 
 .f-style {
 	font-style: italic;
@@ -43,3 +46,37 @@ h6 {
 	padding-left: 5rem;
 	padding-right: 5rem;
 }
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	margin:auto;
+
+}
+.footer{
+	background:url(./../assets/back.jpg);
+	padding:70px 0;
+
+}
+.footer-col{
+	padding:0 40px;
+}
+
+
+.footer-col ul li a{
+
+	color: rgb(125, 120, 124);
+	text-decoration: none;
+	font-weight: 300;
+}
+
+.social-links{
+
+ }
+
+
+
+ @media screen and (max-width:800px){
+
+
+ }
