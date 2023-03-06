@@ -17,51 +17,73 @@
 
 <body>
 	<!--Header-->
-	<header class="navbar bg-body-tertiary">
+	<header class="navbar">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html">
-				<img src="./assets/fashion-logo.jpg" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">
 				<i class="f-style">FASHION</i>
 			</a>
-			<ul class="nav justify-content-end">
-				<li class="nav-item">
-					<a class="nav-link" href="#">EN</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Account</a>
-				</li>
-			</ul>
+
+			<nav class="meniu">
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="meniu nav-link active" aria-current="page" href="#">News</a>
+					</li>
+					<li class="nav-item">
+						<a class="meniu nav-link" href="#">Celebrities</a>
+					</li>
+					<li class="nav-item">
+						<a class="meniu nav-link" href="#">Lifestyle</a>
+					</li>
+					<li class="nav-item">
+						<a class="meniu nav-link">Health</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">EN</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Account</a>
+					</li>
+				</ul>
+
+
+
+				</ul>
+			</nav>
 		</div>
+
 	</header>
 
 	<!--Meniu-->
-	<nav class="meniu">
-		<ul class="nav justify-content-center">
-			<li class="nav-item">
-				<a class="meniu nav-link active" aria-current="page" href="#">News</a>
-			</li>
-			<li class="nav-item">
-				<a class="meniu nav-link" href="#">Celebrities</a>
-			</li>
-			<li class="nav-item">
-				<a class="meniu nav-link" href="#">Lifestyle</a>
-			</li>
-			<li class="nav-item">
-				<a class="meniu nav-link">Health</a>
-			</li>
-		</ul>
-	</nav>
+
 	<!--Content-->
-	<div class="f-content">
+	<div>
 		<div>
 			<h6>Headlines</h6>
 			<div class="d-flex">
-				<div class="p-2 w-100">Important Headline</div>
+				<div class="p-2 w-50">
+					<img class="outfit" src="./assets/outfit.jpg" , alter="outfit">
+					<a class="news_title" href="#">
+						<h6>20 Cute Spring Work Outfit Ideas That'll Inspire You to Work Harder LOL</h6>
+					</a>
+					<input type="date" value="2017-06-01" />
+				</div>
 				<div class="p-2 flex-shrink-1">
 					<div class="d-flex flex-column mb-3">
-						<div class="p-2">Headline 1</div>
-						<div class="p-2">Headline 2</div>
-						<div class="p-2">Headline 3</div>
+						<div class="p-2">
+							<a class="news_title" href="#">
+								<h6>You Need to Wear these Cardigan Outfits ASAP</h6>
+							</a>
+						</div>
+						<div class="p-2">
+							<a class="news_title" href="#">
+								<h6>You're Gonna See These Bags Everywhere This Year</h6>
+							</a>
+						</div>
+						<div class="p-2">
+							<a class="news_title" href="#">
+								<h6>Here's Exactly How to Knot and Tuck Your Oversized T-Shirt</h6>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -71,23 +93,59 @@
 		<div>
 			<h6>Celebrities</h6>
 			<div class="d-flex">
-				<div class="p-2 flex-fill">Celebrity1</div>
-				<div class="p-2 flex-fill">Celebrity2</div>
-				<div class="p-2 flex-fill">Celebrity3</div>
+				<div>
+					<img class="celebs" src="./assets/couple.jpg" alter="celebs">
+					<a class="news_title" href="#">
+						<h6>Prince Harry and Meghan Markle "Are OK About Leaving Frogmore Cottage"</h6>
+					</a>
+				</div>
+				<div>
+					<img class="celebs" src="./assets/baby.jpg" alter="celebs">
+					<a class="news_title" href="#">
+						<h6>Rihanna Shares Adorable New Pics of Her Son</h6>
+					</a>
+				</div>
+				<div>
+					<img class="celebs" src="./assets/fight.jpg" alter="celebs">
+					<a class="news_title" href="#">
+						<h6>A Comprehensive Timeline of All the Recent Selena Gomez/Hailey Bieber Drama</h6>
+					</a>
+				</div>
 			</div>
 		</div>
 
 		<div>
 			<h6>Lifestyle</h6>
 			<div class="d-flex">
-				<div class="p-2 flex-fill">Flex item with a lot of content</div>
-				<div class="p-2 flex-fill">Flex item</div>
-				<div class="p-2 flex-fill">Flex item</div>
-			</div>
-			<div class="d-flex">
-				<div class="p-2 flex-fill">Flex item with a lot of content</div>
-				<div class="p-2 flex-fill">Flex item</div>
-				<div class="p-2 flex-fill">Flex item</div>
+				<div class="p-2 w-50">
+					<img class="outfit" src="./assets/perfume.jpg" , alter="outfit">
+					<a class="news_title" href="#">
+						<h6>Top 10 Must Have Perfumes This Year</h6>
+					</a>
+					<input type="date" value="2017-06-01" />
+				</div>
+				<div class="p-2 flex-shrink-1">
+					<div class="d-flex flex-column mb-3">
+						<div class="p-2">
+							<img class="celebs" src="./assets/work.jpg" , alter="outfit">
+							<a class="news_title" href="#">
+								<h6>Work From Home? Desing Your Workplace</h6>
+							</a>
+						</div>
+						<div class="p-2">
+							<img class="celebs" src="./assets/sleep.jpg" , alter="outfit">
+							<a class="news_title" href="#">
+								<h6>Want The Best Sleep Ever? Hi Amazon Sheets</h6>
+							</a>
+						</div>
+						<div class="p-2">
+							<img class="celebs" src="./assets/wine.jpg" , alter="outfit">
+							<a class="news_title" href="#">
+								<h6>The Easiest Way To Never Run Out Of Wine Again</h6>
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -98,11 +156,7 @@
 				<div class="p-2 flex-fill">Flex item</div>
 				<div class="p-2 flex-fill">Flex item</div>
 			</div>
-			<div class="d-flex">
-				<div class="p-2 flex-fill">Flex item with a lot of content</div>
-				<div class="p-2 flex-fill">Flex item</div>
-				<div class="p-2 flex-fill">Flex item</div>
-			</div>
+
 		</div>
 	</div>
 

@@ -1,19 +1,33 @@
+*{
+	padding:0 11px;
+}
+
 .navbar {
 
-	background: url(./../assets/back.jpg);
 
+
+}
+
+.f-style {
+	font-style: italic;
+	font-family: Impact, Haettenschweilercu, 'Arial Narrow Bold', sans-serif;
+	color: rgb(111, 79, 101);
+}
+
+.f-style:hover {
+	color: rgb(191, 171, 184);
 }
 
 .meniu {
 
-	background-color: rgb(215, 206, 208);
-	font-weight: 300;
-	padding-right:3rem;
-	padding-left:3rem;
+	/*background-color: rgb(244, 238, 240);
+	font-weight: 300;*/
 
-
+	/*padding-left:1rem;*/
 }
-
+.news_title{
+	text-decoration: none;
+}
 
 h6 {
 	color: rgb(111, 79, 101);
@@ -23,14 +37,14 @@ ul{
 	list-style: none;
 }
 
-.f-style {
-	font-style: italic;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	color: rgb(111, 79, 101);
+.outfit{
+
+  width: 350px;
+
 }
 
-.f-style:hover {
-	color: rgb(191, 171, 184);
+.celebs{
+	width:200px;
 }
 
 .nav-link {
@@ -42,9 +56,6 @@ ul{
 }
 
 .f-content {
-
-	padding-left: 5rem;
-	padding-right: 5rem;
 }
 
 .container{
