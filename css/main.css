@@ -1,3 +1,6 @@
+*{
+	background-color: rgb(252, 252, 252);
+}
 .logo {
 	max-width: 5rem;
 	margin-top: 5px;
@@ -6,11 +9,8 @@
 }
 
 .meniu {
-
-	/*background-color: rgb(244, 238, 240);
-	font-weight: 300;*/
-
-	/*padding-left:1rem;*/
+	font-size:smaller;
+	margin-left:20px;
 }
 
 .news_title {
@@ -19,6 +19,7 @@
 
 h6 {
 	color: rgb(111, 79, 101);
+	font-size: small;
 
 }
 
@@ -71,7 +72,9 @@ ul {
 	color: rgb(191, 171, 184);
 }
 
-.f-content {}
+.footer-text{
+	font-size: small;
+}
 
 .container {
 	display: flex;
