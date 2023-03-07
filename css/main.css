@@ -1,21 +1,8 @@
-*{
-	padding:0 11px;
-}
+.logo {
+	max-width: 5rem;
+	margin-top: 5px;
+	padding: 10px;
 
-.navbar {
-
-
-
-}
-
-.f-style {
-	font-style: italic;
-	font-family: Impact, Haettenschweilercu, 'Arial Narrow Bold', sans-serif;
-	color: rgb(111, 79, 101);
-}
-
-.f-style:hover {
-	color: rgb(191, 171, 184);
 }
 
 .meniu {
@@ -25,7 +12,8 @@
 
 	/*padding-left:1rem;*/
 }
-.news_title{
+
+.news_title {
 	text-decoration: none;
 }
 
@@ -33,18 +21,46 @@ h6 {
 	color: rgb(111, 79, 101);
 
 }
-ul{
+
+ul {
 	list-style: none;
 }
 
-.outfit{
 
-  width: 350px;
+
+.sections {
+	display: inline-block;
+}
+
+
+.outfit {
+
+	width: 300px;
+	margin-top: 10px;
+
 
 }
 
-.celebs{
-	width:200px;
+.perfume{
+	width: 330px;
+	margin-top: 10px;
+
+
+}
+.celebs {
+	width: 200px;
+	margin-top: 20px;
+	margin-right:25px;
+	margin-left:5px;
+}
+
+.lifestyle-first {
+	width: 200px;
+	margin-top: 3px;
+}
+
+.lifestyle-second {
+	margin-top:-10px;
 }
 
 .nav-link {
@@ -55,39 +71,30 @@ ul{
 	color: rgb(191, 171, 184);
 }
 
-.f-content {
-}
+.f-content {}
 
-.container{
+.container {
 	display: flex;
 	flex-wrap: wrap;
-	margin:auto;
+	margin: auto;
 
 }
-.footer{
-	background:url(./../assets/back.jpg);
-	padding:70px 0;
+
+.footer {
+	background-color: #fff;
+	padding: 70px 0;
 
 }
-.footer-col{
-	padding:0 40px;
+
+.footer-col {
+	padding: 0 40px;
 }
 
 
-.footer-col ul li a{
+.footer-col ul li a {
 
 	color: rgb(125, 120, 124);
 	text-decoration: none;
 	font-weight: 300;
 }
 
-.social-links{
-
- }
-
-
-
- @media screen and (max-width:800px){
-
-
- }
