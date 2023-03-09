@@ -1,6 +1,8 @@
-*{
+.container {
 	background-color: rgb(252, 252, 252);
+
 }
+
 .logo {
 	max-width: 5rem;
 	margin-top: 5px;
@@ -9,15 +11,43 @@
 }
 
 .meniu {
-	font-size:smaller;
-	margin-left:20px;
+	font-size: smaller;
+	margin-left: 20px;
+}
+
+.nav {
+	display: inline-flex;
+}
+
+.meniu_button {
+	display: none;
+}
+
+.headline {
+	display: inline-block;
+}
+
+.more {
+	justify-content: end;
+	padding-left: 36rem;
 }
 
 .news_title {
 	text-decoration: none;
 }
 
-h6 {
+h5 {
+	color: rgb(111, 79, 101);
+	font-size: small;
+
+}
+
+.content h6:hover {
+	color: rgb(191, 171, 184);
+
+}
+
+.content h6 {
 	color: rgb(111, 79, 101);
 	font-size: small;
 
@@ -27,7 +57,10 @@ ul {
 	list-style: none;
 }
 
-
+time {
+	font-size: 10px;
+	color: #403f3fc7;
+}
 
 .sections {
 	display: inline-block;
@@ -42,17 +75,18 @@ ul {
 
 }
 
-.perfume{
+.perfume {
 	width: 330px;
 	margin-top: 10px;
 
 
 }
+
 .celebs {
 	width: 200px;
 	margin-top: 20px;
-	margin-right:25px;
-	margin-left:5px;
+	margin-right: 25px;
+	margin-left: 5px;
 }
 
 .lifestyle-first {
@@ -61,7 +95,7 @@ ul {
 }
 
 .lifestyle-second {
-	margin-top:-10px;
+	margin-top: -10px;
 }
 
 .nav-link {
@@ -72,18 +106,14 @@ ul {
 	color: rgb(191, 171, 184);
 }
 
-.footer-text{
+.footer-text {
 	font-size: small;
 }
 
-.container {
+.footer {
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
-
-}
-
-.footer {
 	background-color: #fff;
 	padding: 70px 0;
 
@@ -94,10 +124,60 @@ ul {
 }
 
 
-.footer-col ul li a {
+.footer a {
 
 	color: rgb(125, 120, 124);
 	text-decoration: none;
 	font-weight: 300;
 }
 
+.footer a:hover {
+	color: rgb(191, 171, 184);
+}
+
+.footer i {
+	color: rgb(125, 120, 124);
+}
+
+.footer i:hover {
+	color: rgb(191, 171, 184);
+}
+
+@media screen and (max-width: 760px) {
+
+
+
+	.nav {
+		position: fixed;
+		inset: 0 0 0 55%;
+		flex-direction: column;
+		padding: min(30vh, 10rem) 2rem;
+		display: inline-block;
+		background: rgba(136, 133, 135, 0.7);
+		font-weight: bold;
+		font-size: large;
+
+
+	}
+
+	.meniu_button {
+		background: url('/project-starter/assets/menu.png');
+		background-repeat: no-repeat;
+		border: 0;
+		display: block;
+		background-size: contain;
+		position: absolute;
+		width: 2rem;
+		aspect-ratio: 1;
+		top: 2rem;
+		left:25rem;
+
+
+		z-index: 9999;
+
+	}
+
+
+
+
+}
