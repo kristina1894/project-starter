@@ -1,10 +1,17 @@
+:root{
+--text-color:rgb(111, 79, 101);
+--var-200:200px;
+--var-5:5rem;
+--small:small;
+--hover-color:rgb(191, 171, 184);
+}
 .container {
 	background-color: rgb(252, 252, 252);
 
 }
 
 .logo {
-	max-width: 5rem;
+	max-width: var(--var-5);
 	margin-top: 5px;
 	padding: 10px;
 
@@ -29,7 +36,7 @@
 
 .more {
 	justify-content: end;
-	padding-left: 36rem;
+	padding-left: 35rem;
 }
 
 .news_title {
@@ -37,8 +44,8 @@
 }
 
 h5 {
-	color: rgb(111, 79, 101);
-	font-size: small;
+	color:var(--text-color);
+	font-size: var(--small);
 
 }
 
@@ -48,8 +55,8 @@ h5 {
 }
 
 .content h6 {
-	color: rgb(111, 79, 101);
-	font-size: small;
+	color:var(--text-color);
+	font-size:var(--small);
 
 }
 
@@ -83,14 +90,14 @@ time {
 }
 
 .celebs {
-	width: 200px;
+	width: var(--var-200);
 	margin-top: 20px;
 	margin-right: 25px;
 	margin-left: 5px;
 }
 
 .lifestyle-first {
-	width: 200px;
+	width:var(--var-200);
 	margin-top: 3px;
 }
 
@@ -99,7 +106,7 @@ time {
 }
 
 .nav-link {
-	color: rgb(111, 79, 101);
+	color:var(--text-color);
 }
 
 .nav-link:hover {
@@ -132,7 +139,7 @@ time {
 }
 
 .footer a:hover {
-	color: rgb(191, 171, 184);
+	color:var(--hover-color);
 }
 
 .footer i {
@@ -140,7 +147,7 @@ time {
 }
 
 .footer i:hover {
-	color: rgb(191, 171, 184);
+	color: var(--hover-color);
 }
 
 @media screen and (max-width: 760px) {
@@ -186,5 +193,7 @@ time {
 	padding-left:30px;
 }
 
-
+.container-sm{
+	display: block;
+}
 }
