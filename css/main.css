@@ -177,7 +177,14 @@ time {
 
 	}
 
+.block{
+	display:inline-block;
 
+}
+
+.lifestyle {
+	padding-left:30px;
+}
 
 
 }
